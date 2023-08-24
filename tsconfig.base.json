@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/model": ["packages/model/src/index.ts"],
+      "@monorepo/ui": ["packages/ui/src/index.ts"],
+      "@monorepo/todo-db": ["packages/todo-db/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
